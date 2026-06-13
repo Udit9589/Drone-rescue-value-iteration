@@ -8,11 +8,11 @@
 
 | Policy Map | Value Heatmap |
 |---|---|
-| ![Policy Map](outputs/policy_map.png) | ![Value Heatmap](outputs/value_heatmap.png) |
+| ![Policy Map](policy_map.png) | ![Value Heatmap](value_heatmap.png) |
 
 | Trajectory | Convergence |
 |---|---|
-| ![Trajectory](outputs/trajectory.png) | ![Convergence](outputs/convergence.png) |
+| ![Trajectory](trajectory.png) | ![Convergence](convergence.png) |
 
 ---
 
@@ -42,11 +42,10 @@ Drone_Rescue/
 │   ├── value_iteration.py  # Bellman optimality solver with convergence tracking
 │   ├── visualization.py    # Policy map, value heatmap, trajectory & convergence plots
 │   └── main.py             # Entry point — runs the full pipeline
-├── outputs/
-│   ├── policy_map.png
-│   ├── value_heatmap.png
-│   ├── trajectory.png
-│   └── convergence.png
+├── policy_map.png
+├── value_heatmap.png
+├── trajectory.png
+├── convergence.png
 ├── docs/
 │   └── report.md           # Full academic report
 └── requirements.txt
